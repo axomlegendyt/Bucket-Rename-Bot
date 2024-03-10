@@ -1,12 +1,12 @@
 services:
   - type: web
     plan: free
-    name: TechMagazineAutoFilterBot
+    name: Bucket-Rename-Bot
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python3 bot.py
-    repo: https://github.com/itsyogieu/TechMagazineAutoFilterBot.git      
-    branch: master
+    repo: https://github.com/axomlegendyt/Bucket-Rename-Bot.git      
+    branch: main
     envVars:
       - key: BOT_TOKEN 
         sync: false

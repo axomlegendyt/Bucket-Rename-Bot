@@ -8,19 +8,19 @@ services:
     repo: https://github.com/axomlegendyt/Bucket-Rename-Bot.git      
     branch: main
     envVars:
-      - key: BOT_TOKEN 
-        sync: false
       - key: API_ID 
         sync: false
-      - key: API_HASH
+      - key: API_HASH 
         sync: false
-      - key: ADMINS
+      - key: TOKEN
         sync: false
-      - key: DATABASE_NAME
+      - key: ADMIN
         sync: false
-      - key: DATABASE_URI
+      - key: DB_URL
+        sync: false
+      - key: DB_NAME
         sync: false 
-      - key: PICS
+      - key: CHANNEL
         sync: false
       - key: LOG_CHANNEL
         sync: false    
